@@ -5,7 +5,6 @@ const app = createHonoApp({
     basePath: '/api'
 })
 
-
 AppDataSource.initialize()
     .then(() => {
         console.log("Data Source has been initialized!");
