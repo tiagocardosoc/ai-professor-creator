@@ -1,0 +1,26 @@
+{
+  "name": "ai-professor-creator",
+  "module": "server.ts",
+  "scripts": {
+    "start": "bun src/server.ts",
+    "dev": "bun --hot src/server.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/trpc-server": "^0.3.4",
+    "@trpc/client": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "@types/jsonwebtoken": "^9.0.7",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.17",
+    "jsonwebtoken": "^9.0.2",
+    "superjson": "^2.2.2",
+    "typeorm": "^0.3.20"
+  }
+}
